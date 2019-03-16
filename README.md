@@ -1,1 +1,2 @@
-# fede-r1c0.github.io
+# 
+Personal website development exercise. https://feder1c0.me
