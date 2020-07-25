@@ -30,10 +30,7 @@ body {
     transition: color 0.1s linear;
 }
 
-.social .twitter:hover {  color:#55ACEE; }
-.social .facebook:hover {  color:#3B5998; }
-.social .dribbble:hover {  color:#ea4c89; }
-.social .instagram:hover {  color:#9e7144; }
+.social .pdf:hover {  color:#E61F00; }
 .social .linkedin:hover {  color:#4875B4; }
 
 .social i {
