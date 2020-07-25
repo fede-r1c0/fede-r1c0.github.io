@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(rgba(170, 173, 187, 0.5) 1px, transparent 1px), linear-gradient(#AAADBB 1px, transparent 1px), linear-gradient(90deg, rgba(170, 173, 187, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(170, 173, 187, 0.7) 1px, transparent 1px), linear-gradient(transparent 3px, #FFFFFF 3px, #FFFFFF 58px, transparent 58px), linear-gradient(90deg, rgba(170, 173, 187, 0.7) 3px, transparent 3px, transparent 58px, rgba(170, 173, 187, 0.7) 58px);
+    background-size: 15px 15px, 60px 60px, 15px 15px, 60px 60px, 60px 60px, 60px 60px;
+}
+
+.presentation{
+    background-color: #FFF;
+    border: 1px solid #AAADBB; 
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
+.container{
+    text-align: center;
+}
+
+.img-tumbnail{
+   margin: 20px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.social a{
+    color:#AAADBB;
+    transition: color 0.1s linear;
+}
+
+.social .twitter:hover {  color:#55ACEE; }
+.social .facebook:hover {  color:#3B5998; }
+.social .dribbble:hover {  color:#ea4c89; }
+.social .instagram:hover {  color:#9e7144; }
+.social .linkedin:hover {  color:#4875B4; }
+
+.social i {
+  margin: 20px 20px;
+}
+
+p.lead {
+  font-size: 28px;
+  font-weight: 400;
+  color:  2f2f2f;
+}
+
+p {
+  font-size: 1.11em;
+  line-height: 1.5em;
+  padding-top: 20px;
+}
+
+header .btn {
+  border: 2px solid #4875B4;
+  color: #FFF;
+  transition: background 0.1s linear;
+  background:#4875B4;
+}
+
+header .btn:hover {
+  border: 2px solid #4875B4;
+  color:#FFF;
+  background:#4875B4;
+}
+
+
