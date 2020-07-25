@@ -18,11 +18,11 @@ body {
 }
 
 .img-tumbnail{
-   margin: 20px;
+   margin: 40px;
 }
 
 .social{
-    margin: 20px;
+    margin: 12px;
 }
 
 .social a{
@@ -37,12 +37,12 @@ body {
 .social .linkedin:hover {  color:#4875B4; }
 
 .social i {
-  margin: 20px 20px;
+  margin: 12px 12px;
 }
 
 p.lead {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   color:  2f2f2f;
 }
 
