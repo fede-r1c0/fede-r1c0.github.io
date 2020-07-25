@@ -29,7 +29,7 @@ body {
     color:#AAADBB;
     transition: color 0.1s linear;
 }
-
+.social .github:hover {  color:#111; }
 .social .pdf:hover {  color:#E61F00; }
 .social .linkedin:hover {  color:#4875B4; }
 
