@@ -31,19 +31,17 @@ p {
   line-height: 1.8em;
   padding-top: 15px;
   color: #FFF;
-  text-shadow: 1px 1px 2px #8755DF;  
-}
-
-a {
-  color: rgb(206, 88, 88)
-}
-
-a:hover {
-  color: #8755DF
+  text-shadow: 1px 1px 1px #7D40E7;  
 }
 
 p span {
   background-color: #121212;
+}
+
+p .work {
+  font-family: 'Open Sans', sans-serif;
+  color: #7D40E7;
+  text-shadow: 1px 1px 1px #7039CF;  
 }
 
 /* Social media icons CSS */
@@ -68,16 +66,20 @@ p span {
 
 /* Button CSS */
 header .btn {
-  border: 2px solid #7D40E7;
+  border: 1px solid #7D40E7;
   color: #FFF;
+  text-shadow: 1px 1px 1px #7039CF;  
   transition: background 0.1s linear;
   background:#7D40E7;
+  box-shadow: 0 4px #7039CF;
 }
 
 header .btn:hover {
-  border: 2px solid #8755DF;
+  border: 1px solid #8A53E9;
   color:#FFF;
-  background:#8755DF;
+  text-shadow: 1px 1px 1px #6433B8;  
+  background:#8A53E9;
+  box-shadow: 0 2px #7D40E7;
 }
 
 
