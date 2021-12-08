@@ -66,15 +66,15 @@ header .btn {
   text-shadow: 1px 1px 1px #7039CF;  
   transition: background 0.1s linear;
   background:#7D40E7;
-  box-shadow: 0 4px #7039CF;
+  box-shadow: 0 4px #6433B8;
 }
 
 header .btn:hover {
-  border: 1px solid #8A53E9;
+  border-top: 3px solid #6433B8;
   color:#FFF;
   text-shadow: 1px 1px 1px #6433B8;  
-  background:#8A53E9;
-  box-shadow: 0 2px #7D40E7;
+  background:#7039CF;
+  box-shadow: 0 1px #6433B8;
 }
 
 
