@@ -31,7 +31,7 @@ p {
   line-height: 1.8em;
   padding-top: 15px;
   color: #FFF;
-  background-color: #121212;
+  text-shadow: 1px 1px 2px #8755DF;  
 }
 
 a {
@@ -40,6 +40,10 @@ a {
 
 a:hover {
   color: #8755DF
+}
+
+p span {
+  background-color: #121212;
 }
 
 /* Social media icons CSS */
