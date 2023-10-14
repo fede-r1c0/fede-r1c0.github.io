@@ -1,18 +1,6 @@
-//
-// Bring in Bootstrap
-//
-
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-//
-// Import Custom styles
-//
-
 @import '../scss/base/fonts';
 @import '../scss/base/colors';
 @import '../scss/components/body';
 @import '../scss/components/header';
 @import '../scss/components/footer';
 @import '../scss/components/skills';
-
-//
