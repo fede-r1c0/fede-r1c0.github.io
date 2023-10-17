@@ -1,24 +1,6 @@
-
 /* About me Box CSS */
 .about {
   width: 100vh;
   height: 100vh;
   align-items: center;
-}
-
-.about__box{
-  background-color: $white-color;
-  border: 1px solid $gray-color;
-  border-radius: 2%;
-  padding: 40px;
-  margin: 20px;
-
-  h1,
-  p{
-    margin: 20px;
-  }
-
-  p{
-    padding: 20px 0;
-  }
 }

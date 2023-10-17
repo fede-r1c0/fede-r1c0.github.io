@@ -759,31 +759,28 @@ input {
   outline: none;
 }
 
-/* Presentation Box CSS */
-.presentation {
-  width: 100vh;
-  height: 100vh;
-  align-items: center;
-}
-
-.profile__card {
-  width: 600px;
-  text-align: center;
+/* Default Box CSS */
+.default__box {
   background-color: #fff;
   border: 1px solid #eeeeee;
   border-radius: 2%;
   padding: 40px;
-}
-.profile__card .profile__presentation {
-  margin: 40px;
-  text-decoration: dashed;
-}
-.profile__card .profile__presentation h1, .profile__card .profile__presentation .h1 {
   margin: 20px;
 }
-.profile__card .profile__presentation p {
-  padding: 0;
+.default__box h1, .default__box .h1,
+.default__box p {
   margin: 20px;
+}
+.default__box p {
+  padding: 20px 0;
+}
+
+/* Presentation Box CSS */
+.presentation {
+  width: 600px;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
 }
 
 header {
@@ -912,21 +909,6 @@ header {
   width: 100vh;
   height: 100vh;
   align-items: center;
-}
-
-.about__box {
-  background-color: #fff;
-  border: 1px solid #eeeeee;
-  border-radius: 2%;
-  padding: 40px;
-  margin: 20px;
-}
-.about__box h1, .about__box .h1,
-.about__box p {
-  margin: 20px;
-}
-.about__box p {
-  padding: 20px 0;
 }
 
 /* SKILLS CSS SECTION */
@@ -1272,6 +1254,13 @@ header {
   .skills .bullet {
     margin: 5px 14px 0 0;
   }
+}
+/* Contact Form Box CSS */
+.contact {
+  width: 100vh;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
