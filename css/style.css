@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap';
-@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css';
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -696,6 +696,18 @@ progress {
   content: "— ";
 }
 
+/* Presentation Text CSS */
+p {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #121212;
+}
+
+p .work {
+  color: #7d40e7;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   padding: 3px;
@@ -713,25 +725,54 @@ body {
   text-align: center;
 }
 
-/* Presentation Text CSS */
-p.lead {
-  font-size: 28px;
-  font-weight: 300;
-  color: #2f2f2f;
+.nav-ul {
+  margin: 0 auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  text-align: center;
 }
 
-p {
-  padding-top: 20px;
-  font-size: 1.18em;
-  line-height: 1.8em;
+.nav-li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+
+.nav-li a {
   color: #121212;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
-p .work {
-  font-family: "Open Sans", sans-serif;
-  color: #7D40E7;
+.nav-li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #7d40e7;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
+.nav-li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-height: 300px) {
+  .nav-ul {
+    margin-top: 40px;
+  }
+}
 /* Social media icons CSS */
 .social {
   padding-bottom: 20px;
@@ -743,23 +784,23 @@ p .work {
 }
 
 .social .github:hover {
-  color: #7D40E7;
+  color: #7d40e7;
 }
 
 .social .gitlab:hover {
-  color: #FC6D26;
+  color: #fc6d26;
 }
 
 .social .spotify:hover {
-  color: #1DB954;
+  color: #1db954;
 }
 
 .social .linkedin:hover {
-  color: #0091FF;
+  color: #0091ff;
 }
 
 .social .pdf:hover {
-  color: #E61F00;
+  color: #e61f00;
 }
 
 .social i {
@@ -767,21 +808,21 @@ p .work {
 }
 
 /* Button CSS */
-.container .btn {
-  border: 1px solid #7D40E7;
-  color: #FFF;
-  text-shadow: 1px 1px 1px #7039CF;
+.btn {
+  border: 1px solid #7d40e7;
+  color: #fff;
+  text-shadow: 1px 1px 1px #7039cf;
   transition: background 0.1s linear;
-  background: #7D40E7;
-  box-shadow: 0 4px #6433B8;
+  background: #7039cf;
+  box-shadow: 0 4px #6433b8;
 }
 
-.container .btn:hover {
-  border-top: 3px solid #6433B8;
-  color: #FFF;
-  text-shadow: 1px 1px 1px #6433B8;
-  background: #7039CF;
-  box-shadow: 0 1px #6433B8;
+.btn:hover {
+  border-top: 3px solid #6433b8;
+  color: #fff;
+  text-shadow: 1px 1px 1px #6433b8;
+  background: #7039cf;
+  box-shadow: 0 1px #6433b8;
 }
 
 /* SKILLS CSS SECTION */
@@ -791,14 +832,14 @@ p .work {
   right: auto;
   position: absolute;
   top: auto;
-  background-color: #7D40E7;
+  background-color: #7d40e7;
   left: 0px;
   bottom: 0px;
 }
 
 /* .skills * {
-  font-family: Nunito, sans-serif;
-} */
+    font-family: Nunito, sans-serif;
+  } */
 .skills .text-blk {
   margin-top: 0px;
   margin-right: 0px;
@@ -913,13 +954,13 @@ p .work {
 }
 
 .skills .viewMore {
-  border: 1px solid #7D40E7;
-  text-shadow: 1px 1px 1px #7039CF;
-  box-shadow: 0 4px #6433B8;
+  border: 1px solid #7d40e7;
+  text-shadow: 1px 1px 1px #7039cf;
+  box-shadow: 0 4px #6433b8;
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background: #7D40E7;
+  background: #7d40e7;
   transition: background 0.1s linear;
   padding-top: 13px;
   padding-right: 40px;
@@ -928,11 +969,11 @@ p .work {
 }
 
 .skills .viewMore:hover {
-  border-top: 3px solid #6433B8;
-  color: #FFF;
-  text-shadow: 1px 1px 1px #6433B8;
-  box-shadow: 0 1px #6433B8;
-  background: #7039CF;
+  border-top: 3px solid #6433b8;
+  color: #fff;
+  text-shadow: 1px 1px 1px #6433b8;
+  box-shadow: 0 1px #6433b8;
+  background: #7039cf;
 }
 
 .skills .textRow {
@@ -966,10 +1007,10 @@ p .work {
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  border-top-color: #7039CF;
-  border-right-color: #7039CF;
-  border-bottom-color: #7039CF;
-  border-left-color: #7039CF;
+  border-top-color: #7039cf;
+  border-right-color: #7039cf;
+  border-bottom-color: #7039cf;
+  border-left-color: #7039cf;
   border-image-source: initial;
   border-image-slice: initial;
   border-image-width: initial;
