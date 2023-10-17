@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 :root,
 [data-bs-theme=light] {
@@ -725,21 +726,19 @@ body {
   text-align: center;
 }
 
-.nav-ul {
+.side-nav ul {
   margin: 0 auto 0;
   padding: 0;
   list-style: none;
   display: table;
   text-align: center;
 }
-
-.nav-li {
+.side-nav li {
   display: table-cell;
   position: relative;
   padding: 15px 0;
 }
-
-.nav-li a {
+.side-nav a {
   color: #121212;
   font-size: 12px;
   text-transform: uppercase;
@@ -749,8 +748,7 @@ body {
   padding: 15px 20px;
   position: relative;
 }
-
-.nav-li a:after {
+.side-nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -762,8 +760,7 @@ body {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-
-.nav-li a:hover:after {
+.side-nav a:hover:after {
   width: 100%;
   left: 0;
 }
