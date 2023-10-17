@@ -890,7 +890,6 @@ header {
 
 /* Button CSS */
 .btn {
-  margin: 20px;
   border: 1px solid #7d40e7;
   text-shadow: 1px 1px 1px #7039cf;
   transition: background 0.1s linear;
@@ -906,6 +905,28 @@ header {
   text-shadow: 1px 1px 1px #6433b8;
   background: #6433b8;
   box-shadow: 0 4px #461e8d;
+}
+
+/* About me Box CSS */
+.about {
+  width: 100vh;
+  height: 100vh;
+  align-items: center;
+}
+
+.about__box {
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 2%;
+  padding: 40px;
+  margin: 20px;
+}
+.about__box h1, .about__box .h1,
+.about__box p {
+  margin: 20px;
+}
+.about__box p {
+  padding: 20px 0;
 }
 
 /* SKILLS CSS SECTION */
