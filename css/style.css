@@ -768,42 +768,45 @@ input {
   text-align: center;
 }
 
-.menu .sidebar {
+.menu {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.sidebar {
   width: 60px;
   height: 100vh;
-  padding: 20px 0;
-  justify-content: center;
+  padding: 20px 5px;
   transition: all 0.5s ease;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #eeeeee;
 }
-.menu .sidebar ul {
+
+.nav ul {
   display: flex;
   position: fixed;
-  margin: 0;
-  padding: 0;
-  list-style: none;
   text-align: center;
+  flex-direction: row-reverse;
+  list-style: none;
   transform: rotate(-90deg) translateX(-100%);
   transform-origin: left top;
-  width: 80vh;
-  align-items: center;
 }
-.menu .sidebar li {
-  display: flex;
-  position: relative;
-  flex-direction: row-reverse;
+.nav li {
   padding: 15px;
 }
-.menu .sidebar a {
-  color: #121212;
+.nav a {
+  color: #7a7a7a;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 3px;
   position: relative;
+  float: right;
+  height: 100%;
+  transition: 0.4s;
 }
-.menu .sidebar a:after {
+.nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -815,9 +818,13 @@ input {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.menu .sidebar a:hover:after {
+.nav a:hover:after {
   width: 100%;
   left: 0;
+}
+.nav .active {
+  color: #7d40e7;
+  font-weight: 600;
 }
 
 /* Social media icons CSS */
