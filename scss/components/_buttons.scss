@@ -1,17 +1,23 @@
 /* Button CSS */
-.btn {
+
+.btn{
+  margin: 20px;
   border: 1px solid $main-color;
-  color: $white-color;
   text-shadow: 1px 1px 1px $main-color-dark;
   transition: background 0.1s linear;
   background: $main-color-dark;
   box-shadow: 0 4px $main-color-darker;
+
+  a{
+    color: $white-color;
+  }
 }
 
 .btn:hover {
-  border-top: 3px solid $main-color-darker;
+  // border-top: 2px solid $main-color-darker;
   color: $white-color;
   text-shadow: 1px 1px 1px $main-color-darker;
-  background: $main-color-dark;
-  box-shadow: 0 1px $main-color-darker;
+  background: $main-color-darker;
+  box-shadow: 0 4px $main-color-darkest;
 }
+

@@ -1,27 +1,51 @@
-.side-nav {
+header {
+  background-color: $white-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  padding: 5px;
+  transition: all .5s ease;
+  border-right: 1px solid $gray-color;
+}
+
+.menu{
+  height: 49px;
+  padding: 5px;  
+}
+
+.nav{
+  align-items: center;
   ul {
-    margin: 0 auto 0;
+    display: flex;
+    margin: 0;
     padding: 0;
+    position: fixed;    
+    flex-direction: row-reverse;
     list-style: none;
-    display: table;
-    text-align: center;
+    transform: rotate(-90deg) translateX(-100%);
+    transform-origin: left top;
+    justify-content: center;
+
   }
 
   li {
-    display: table-cell;
-    position: relative;
-    padding: 15px 0;
+    padding: 15px;
   }
 
-  a {
-    color: $text-color;
+  a {    
+    color: $dark-gray-color;
     font-size: 12px;
     text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    padding: 15px 20px;
+    letter-spacing: 3px;
     position: relative;
+    float: right;
+    height: 100%;
+    transition: .4s;
   }
 
   a:after {
@@ -32,7 +56,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: $main-color;  
+    background: $main-color;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -41,10 +65,9 @@
     width: 100%;
     left: 0;
   }
-}
 
-@media screen and (max-height: 300px) {
-  .nav-ul {
-    margin-top: 40px;
+  .active {
+    color: $main-color;
+    font-weight: $base-font-bold;
   }
 }

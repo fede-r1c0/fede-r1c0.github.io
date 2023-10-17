@@ -20,8 +20,8 @@ $body-color: #111;
 // Custom scss
 @import "../scss/base/fonts";
 @import "../scss/base/colors";
-@import "../scss/base/text";
-@import "../scss/components/body";
+@import "../scss/base/base";
+@import "../scss/components/presentation";
 @import "../scss/components/navbar";
 @import "../scss/components/social";
 @import "../scss/components/buttons";
