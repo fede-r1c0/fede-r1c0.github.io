@@ -55,10 +55,10 @@
   <!-- Header -->
   <header>
     <!-- Menu -->
-    <div class="menu">
-      <aside class="sidebar">
-        <nav class="nav">
-            <ul class="nav-ul">
+      <aside class="container sidebar">
+        <div class="container menu"></div>
+        <nav class="container nav">
+            <ul class="container">
               <li><a href="#" class="active" aria-current="page">Home</a></li>
               <li><a href="./about.html" aria-current="page">About me</a></li>
               <li><a href="./skills.html" aria-current="page">Skills</a></li>
@@ -67,22 +67,23 @@
             </ul>
         </nav>
       </aside>
-    </div>
     <!-- Menu end -->
   </header>
   <!-- Header end -->
   <!-- Main content -->
   <main>
-    <div class="presentation">
+    <div class="container presentation d-flex">
       <!-- Presentation -->
-      <div class="container">
-        <img src="assets/images/profile.png" alt="Profile Picture" class="img-thumbnail rounded-circle">
-        <h1>Hi, I'm Federico</h1>
-        <p class="font-weight-regular">I work as <span class="work">DevOps Architect</span> at <a
-            href="https://ripio.com/" target="_blank" class="work">Ripio</a> and I like to use the best
-          technologies to manage the Cloud Infrastructure and promote the Devops Culture in the Development
-          teams.</p>
-        <!-- Social media -->
+      <div class="container profile__card" >
+        <div class="profile__presentation">
+          <img src="assets/images/profile.png" alt="Profile Picture" class="img-thumbnail rounded-circle">
+          <h1>Hi, I'm Federico</h1>
+          <p class="font-weight-regular">I work as <span class="work">DevOps Architect</span> at <a
+              href="https://ripio.com/" target="_blank" class="work">Ripio</a> and I like to use the best
+            technologies to manage the Cloud Infrastructure and promote the Devops Culture in the Development
+            teams.</p>
+          <!-- Social media -->
+        </div>
         <div class="social">
           <a href="https://github.com/fede-r1c0" target="_blank" class="github"><i class="fa fa-github fa-2x"
               aria-hidden="true"></i></a>
@@ -95,17 +96,19 @@
           <a href="assets/pdf/resume.pdf" target="_blank" class="pdf"><i class="fa fa-file-pdf-o fa-2x"
               aria-hidden="true"></i></a>
         </div>
-        <a class="contact btn btn-default btn-lg" href="./about.html">More about me</a>
+        <div class="btn btn-default btn-lg">
+          <a href="./about.html">More about me</a>
+        </div>
       </div>
     </div>
   </main>
   <!-- Main content end -->
 
   <!-- Footer -->
-  <footer class="mt-5 pt-5 pb-5 footer">
+  <footer class="container mt-5 pt-5 pb-5 footer">
     <div class="b-example-divider"></div>
     <div class="col copyright">
-      <p class="text-center"><small class="text-body-secondary text-black-30">© 2023 Learning in CoderHouse.</small></p>
+      <p class="text-center"><small class="text-body-tertiary text-black-30">© 2023 Learning in CoderHouse.</small></p>
     </div>
   </footer>
   <!-- Footer end -->

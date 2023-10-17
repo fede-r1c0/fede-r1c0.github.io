@@ -1,4 +1,5 @@
-.menu {
+header {
+  background-color: $white-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -7,29 +8,36 @@
 .sidebar {
   width: 60px;
   height: 100vh;
-  padding: 20px 5px;
+  padding: 5px;
   transition: all .5s ease;
-  justify-content: center;
-  align-items: center;
   border-right: 1px solid $gray-color;
 }
 
+.menu{
+  height: 49px;
+  padding: 5px;  
+}
+
 .nav{
+  align-items: center;
   ul {
     display: flex;
-    position: fixed;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;    
     flex-direction: row-reverse;
     list-style: none;
     transform: rotate(-90deg) translateX(-100%);
     transform-origin: left top;
+    justify-content: center;
+
   }
 
   li {
     padding: 15px;
   }
 
-  a {
+  a {    
     color: $dark-gray-color;
     font-size: 12px;
     text-transform: uppercase;
