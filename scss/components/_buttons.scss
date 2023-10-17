@@ -1,13 +1,11 @@
 /* Button CSS */
 
 .btn{
-  margin: 20px;
   border: 1px solid $main-color;
   text-shadow: 1px 1px 1px $main-color-dark;
   transition: background 0.1s linear;
-  background: $main-color-dark;
+  background: $main-color;
   box-shadow: 0 4px $main-color-darker;
-
   a{
     color: $white-color;
   }
