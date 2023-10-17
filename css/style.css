@@ -763,9 +763,10 @@ input {
 .default__box {
   background-color: #fff;
   border: 1px solid #eeeeee;
-  border-radius: 2%;
+  border-radius: 1%;
   padding: 40px;
   margin: 20px;
+  box-shadow: 0px 1px 1px 0px #eeeeee;
 }
 .default__box h1, .default__box .h1,
 .default__box p {
@@ -890,7 +891,7 @@ header {
   border: 1px solid #7d40e7;
   text-shadow: 1px 1px 1px #7039cf;
   transition: background 0.1s linear;
-  background: #7039cf;
+  background: #7d40e7;
   box-shadow: 0 4px #6433b8;
 }
 .btn a {
