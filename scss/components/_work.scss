@@ -4,4 +4,18 @@
   height: 100vh;
   align-items: center;
   text-align: center;
+  h1{
+    font-size: $base-font-size-large;
+    font-weight: $base-font-bold;
+    color: $text-color;
+    margin-bottom: 40px;
+  }
+}
+
+.work__card{
+  padding: 40px;
+}
+
+.work__button{
+  margin-top: 30px;
 }
