@@ -1183,6 +1183,20 @@ header {
   align-items: center;
   text-align: center;
 }
+.work h1, .work .h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 40px;
+}
+
+.work__card {
+  padding: 40px;
+}
+
+.work__button {
+  margin-top: 30px;
+}
 
 /* Contact Form Box CSS */
 .contact {
