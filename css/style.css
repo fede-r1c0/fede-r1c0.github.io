@@ -727,13 +727,10 @@ h3, .h3 {
 
 p {
   padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 18px;
   line-height: 28px;
   color: #2a2a2a;
-}
-
-p .work {
-  color: #7d40e7;
 }
 
 ul {
@@ -768,13 +765,6 @@ input {
   margin: 40px;
   box-shadow: 0px 1px 1px 0px #eeeeee;
 }
-.default__box h1, .default__box .h1,
-.default__box p {
-  margin: 20px;
-}
-.default__box p {
-  padding: 20px 0;
-}
 
 /* Presentation Box CSS */
 .presentation {
@@ -782,6 +772,13 @@ input {
   height: 100vh;
   align-items: center;
   text-align: center;
+}
+.presentation p {
+  font-size: 18px;
+  color: #2a2a2a;
+}
+.presentation a {
+  color: #7d40e7;
 }
 
 .sidebar {
@@ -792,10 +789,6 @@ input {
   height: 100vh;
   transition: all 0.5s ease;
   border-right: 1px solid #eeeeee;
-}
-
-.menu {
-  padding: 5px;
 }
 
 .nav {
@@ -1190,6 +1183,13 @@ header {
   font-weight: 600;
   color: #2a2a2a;
   margin-bottom: 40px;
+}
+.work p {
+  font-size: 18px;
+  color: #2a2a2a;
+}
+.work a {
+  color: #7d40e7;
 }
 
 .work__card {

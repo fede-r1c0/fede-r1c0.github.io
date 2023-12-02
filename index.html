@@ -55,9 +55,8 @@
   <!-- Header -->
   <header>
     <!-- Menu -->
-      <aside class="container sidebar">
-        <div class="container menu"></div>
-        <nav class="container nav">
+      <section class="container sidebar">
+        <nav class="container nav navbar navbar-expand-md">
             <ul>
               <li><a href="#" class="active" aria-current="page">Home</a></li>
               <li><a href="./about.html" aria-current="page">About me</a></li>
@@ -66,25 +65,30 @@
               <li><a href="./contact.html" aria-current="page">Contact</a></li>
             </ul>
         </nav>
-      </aside>
+      </section>
     <!-- Menu end -->
   </header>
   <!-- Header end -->
   <!-- Main content -->
   <main>
-    <div class="container presentation d-flex">
-      <!-- Presentation -->
-      <div class="container default__box" >
-        <div class="profile__presentation">
-          <img src="assets/images/profile.png" alt="Profile Picture" class="img-thumbnail rounded-circle">
-          <h1>Hi, I'm Federico</h1>
-          <p class="font-weight-regular">I work as <span class="work">DevOps Architect</span> at <a
-              href="https://ripio.com/" target="_blank" class="work">Ripio</a> and I like to use the best
-            technologies to manage the Cloud Infrastructure and promote the Devops Culture in the Development
-            teams.</p>
-          <!-- Social media -->
-        </div>
-        <div class="social">
+    <section class="container d-flex presentation">
+			<!-- Presentation container-->
+      <article class="container default__box">
+				<!-- Presentation thumbnail -->
+				<div class="container imgContainer">
+					<img src="assets/images/profile.png" alt="Profile Picture" class="img-thumbnail rounded-circle">
+				</div>
+				<!-- Presentation text -->
+				<div class="container textContainer">
+					<h1 class="text-blk heading">Hi, I'm Federico</h1>
+					<p class="font-weight-regular">I work as DevOps Architect at <a
+							href="https://ripio.com/" target="_blank" class="work">Ripio</a> and I like to use the best
+						technologies to manage the Cloud Infrastructure and promote the Devops Culture in the Development
+						teams.
+					</p>
+				</div>
+        <!-- Social media icons -->
+        <div class="container social">
           <a href="https://github.com/fede-r1c0" target="_blank" class="github"><i class="fa fa-github fa-2x"
               aria-hidden="true"></i></a>
           <a href="https://gitlab.com/fede-r1c0" target="_blank" class="gitlab"><i class="fa fa-gitlab fa-2x"
@@ -95,18 +99,18 @@
               class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
           <a href="assets/pdf/resume.pdf" target="_blank" class="pdf"><i class="fa fa-file-pdf-o fa-2x"
               aria-hidden="true"></i></a>
-        </div>
-        <button class="btn btn-default btn-lg mt-3">
-          <a href="./about.html">More about me</a>
-        </button>
-      </div>
-    </div>
+				</div>
+				<!-- About me button  -->
+				<div class="btn btn-default btn-lg mt-3">
+					<a href="./about.html">More about me</a>
+				</div>
+			</article>
+    </section>
   </main>
   <!-- Main content end -->
 
   <!-- Footer -->
-  <footer class="container mt-5 pt-5 pb-5 footer">
-    <div class="b-example-divider"></div>
+  <footer class="container mt-3 pt-3 pb-3 footer">
     <div class="col copyright">
       <p class="text-center"><small class="text-body-tertiary text-black-30">© 2023 Learning in CoderHouse.</small></p>
     </div>
@@ -116,7 +120,8 @@
   <!-- Bootstrap .js files (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+	</script>
 </body>
 <!-- Body end -->
 </html>
