@@ -16,6 +16,7 @@
 .nav{
   height: 35%;
   align-items: center;
+
   ul {
     display: flex;
     position: fixed;
@@ -43,8 +44,7 @@
     transition: .4s;
   }
 
-  a:after {
-    background: none repeat scroll 0 0 transparent;
+  a::after {
     bottom: 0;
     content: "";
     display: block;
@@ -56,7 +56,7 @@
     width: 0;
   }
 
-  a:hover:after{
+  a:hover::after{
     width: 100%;
     left: 0;
   }

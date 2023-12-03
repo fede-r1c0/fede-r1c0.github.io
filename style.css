@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 :root,
@@ -780,7 +780,7 @@ input {
   transition: color 0.1s linear;
 }
 .social__icons i {
-  margin: 12px 12px;
+  margin: 12px;
 }
 .social__icons .github__icon:hover {
   color: #7d40e7;
@@ -837,8 +837,7 @@ input {
   height: 100%;
   transition: 0.4s;
 }
-.nav a:after {
-  background: none repeat scroll 0 0 transparent;
+.nav a::after {
   bottom: 0;
   content: "";
   display: block;
@@ -849,7 +848,7 @@ input {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.nav a:hover:after {
+.nav a:hover::after {
   width: 100%;
   left: 0;
 }

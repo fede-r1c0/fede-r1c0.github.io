@@ -4,16 +4,19 @@
   height: 100vh;
   align-items: center;
   text-align: center;
+
   h1{
     font-size: $base-font-size-large;
     font-weight: $base-font-bold;
     color: $text-color;
     margin-bottom: 40px;
   }
+
 	p{
 		font-size: $base-font-size;
 		color: $text-color;
 	}
+
 	a{
 		color: $main-color;
 	}
