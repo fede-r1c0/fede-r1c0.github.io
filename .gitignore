@@ -13,3 +13,7 @@ node_modules/
 build/
 dist/
 out/
+
+package-lock.json
+style.css.map
+style-bkp.css
