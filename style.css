@@ -753,7 +753,7 @@ input {
   border-radius: 1%;
   padding: 40px;
   margin: 40px;
-  box-shadow: 0px 1px 1px 0px #eeeeee;
+  box-shadow: 0 1px 1px 0 #eeeeee;
 }
 
 /* Presentation Box CSS */
@@ -771,6 +771,15 @@ input {
   color: #7d40e7;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* Social media icons */
 .social__icons {
   padding-bottom: 20px;
@@ -883,6 +892,15 @@ input {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* SKILLS CSS SECTION */
 .skills {
   width: 100%;
@@ -1176,12 +1194,31 @@ input {
   margin-top: 30px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* Contact Form Box CSS */
 .contact {
   width: 600px;
   height: 100vh;
   align-items: center;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

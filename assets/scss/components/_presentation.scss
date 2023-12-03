@@ -14,3 +14,15 @@
 		color: $main-color;
 	}
 }
+
+
+@media (max-width: 768px) {	
+  .container {
+    width: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+}
