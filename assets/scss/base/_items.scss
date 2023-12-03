@@ -1,0 +1,9 @@
+/* Default Box CSS */
+.default__box{
+  background-color: $white-color;
+  border: 1px solid $gray-color;
+  border-radius: 1%;
+  padding: 40px;
+  margin: 40px;
+  box-shadow: 0px 1px 1px 0px $gray-color;
+}
