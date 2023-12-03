@@ -1,5 +1,6 @@
 # Ignore node_modules directory
 node_modules/
+package-lock.json
 
 # Ignore log files and other generated files
 *.log
@@ -14,6 +15,5 @@ build/
 dist/
 out/
 
-package-lock.json
 style.css.map
 style-bkp.css
