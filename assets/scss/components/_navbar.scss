@@ -1,5 +1,6 @@
 
 .sidebar {
+	display: flex;
   background-color: $white-color;
   position: fixed;
   top: 0;
@@ -14,15 +15,14 @@
 }
 
 .nav{
-  height: 35%;
-  align-items: center;
-
+	margin-top: 20dvh;
   ul {
     display: flex;
+		flex-direction: row-reverse;	
+		flex-wrap:  nowrap;
     position: fixed;
     margin: 0;
     padding: 0;
-    flex-direction: row-reverse;
     list-style: none;
     transform: rotate(-90deg) translateX(-100%);
     transform-origin: left top;
