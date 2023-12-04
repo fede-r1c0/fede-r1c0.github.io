@@ -5,10 +5,6 @@
   align-items: center;
   text-align: center;
 
-	h1{
-		margin-top: 20px;
-	}
-
 	p{
 		font-size: $base-font-size;
 		color: $text-color;
@@ -17,4 +13,8 @@
 	a {
 		color: $main-color;
 	}
+}
+
+.img__thumbnail{
+	margin-bottom: 20px;
 }
