@@ -1,9 +1,10 @@
 /* Contact Form Box CSS */
-.work {
-  width: 100vh;
-  height: 100vh;
+.blog {
+	display: flex;
+	margin: 40px auto;
   align-items: center;
   text-align: center;
+	justify-content: center;
 
   h1{
     font-size: $base-font-size-large;
@@ -22,22 +23,13 @@
 	}
 }
 
-.work__card{
-  padding: 40px;
+.blog-card{
+  padding: 20px;
 }
 
-.work__button{
-  margin-top: 30px;
+.btn:hover{
+	text-decoration: none;
+	border: 1px solid $main-color;
+	text-shadow: 1px 1px 1px $main-color-dark;
 }
 
-
-@media (max-width: 768px) {	
-  .container {
-    width: 100%;
-  }
-
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
-}

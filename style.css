@@ -1798,10 +1798,6 @@ h1, .h1 {
   margin-bottom: 20px;
 }
 
-h3, .h3 {
-  color: #7d40e7;
-}
-
 p {
   color: #2a2a2a;
   font-family: "Open Sans", sans-serif;
@@ -1840,8 +1836,8 @@ input {
 
 /* Presentation Box CSS */
 .presentation {
-  width: 55dvh;
-  height: 100dvh;
+  display: flex;
+  margin: 40px auto;
   align-items: center;
   text-align: center;
 }
@@ -1941,30 +1937,6 @@ input {
   font-weight: 600;
 }
 
-/* Button CSS */
-.btn {
-  border: 1px solid #7d40e7;
-  text-shadow: 1px 1px 1px #7039cf;
-  transition: background 0.1s linear;
-  background: #7d40e7;
-  box-shadow: 0 4px #6433b8;
-}
-.btn a {
-  color: #fff;
-}
-
-.btn:hover {
-  color: #fff;
-  text-shadow: 1px 1px 1px #6433b8;
-  background: #6433b8;
-  box-shadow: 0 4px #461e8d;
-}
-
-.button {
-  text-align: center;
-  margin-top: 20px;
-}
-
 .footer {
   margin: 0 auto;
   padding: 10px 0;
@@ -1972,8 +1944,8 @@ input {
 
 /* About me Box CSS */
 .about {
-  width: 600px;
-  height: 100vh;
+  display: flex;
+  margin: 40px auto;
   align-items: center;
   text-align: justify;
 }
@@ -1987,15 +1959,6 @@ input {
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
-}
 /* SKILLS CSS SECTION */
 .skills {
   width: 100%;
@@ -2261,43 +2224,37 @@ input {
   }
 }
 /* Contact Form Box CSS */
-.work {
-  width: 100vh;
-  height: 100vh;
+.blog {
+  display: flex;
+  margin: 40px auto;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
-.work h1, .work .h1 {
+.blog h1, .blog .h1 {
   font-size: 36px;
   font-weight: 600;
   color: #2a2a2a;
   margin-bottom: 40px;
 }
-.work p {
+.blog p {
   font-size: 18px;
   color: #2a2a2a;
 }
-.work a {
+.blog a {
   color: #7d40e7;
 }
 
-.work__card {
-  padding: 40px;
+.blog-card {
+  padding: 20px;
 }
 
-.work__button {
-  margin-top: 30px;
+.btn:hover {
+  text-decoration: none;
+  border: 1px solid #7d40e7;
+  text-shadow: 1px 1px 1px #7039cf;
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
-}
 /* Contact Form Box CSS */
 .contact {
   width: 600px;
@@ -2314,6 +2271,47 @@ input {
     display: flex;
     flex-direction: column;
   }
+}
+/* Button CSS */
+.btn {
+  border: 1px solid #7d40e7;
+  text-shadow: 1px 1px 1px #7039cf;
+  text-decoration: none;
+  transition: background 0.1s linear;
+  background: #7d40e7;
+  box-shadow: 0 4px #6433b8;
+}
+.btn a {
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  text-shadow: 1px 1px 1px #6433b8;
+  text-decoration: none;
+  background: #6433b8;
+  box-shadow: 0 4px #461e8d;
+}
+
+.btn:active {
+  color: #fff;
+  text-shadow: 1px 1px 1px #6433b8;
+  text-decoration: none;
+  background: #461e8d;
+  box-shadow: 0 4px #461e8d;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.button a {
+  color: #fff;
+}
+
+.button:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

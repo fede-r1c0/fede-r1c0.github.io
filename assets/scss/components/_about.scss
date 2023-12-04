@@ -1,7 +1,7 @@
 /* About me Box CSS */
 .about {
-  width: 600px;
-  height: 100vh;
+	display: flex;
+	margin: 40px auto;
   align-items: center;
   text-align: justify;
 
@@ -15,16 +15,4 @@
 		padding: 10px;
 		margin: 0;
 	}
-}
-
-
-@media (max-width: 768px) {	
-  .container {
-    width: 100%;
-  }
-
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
 }
