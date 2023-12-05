@@ -44,3 +44,58 @@ input {
   border: none;
   outline: none;
 }
+
+/* Default Box CSS */
+.default__box{
+  background-color: $white-color;
+  border: 1px solid $gray-color;
+  border-radius: 1%;
+  padding: 30px;
+  margin: 0 auto;
+  box-shadow: 0 1px 1px 0 $gray-color;
+}
+
+/* Button CSS */
+
+.btn{
+  border: 1px solid $main-color;
+  text-shadow: 1px 1px 1px $main-color-dark;
+	text-decoration: none;
+  transition: background 0.1s linear;
+  background: $main-color;
+  box-shadow: 0 4px $main-color-darker;
+
+  a{
+    color: $white-color;
+  }
+}
+
+.btn:hover {
+  color: $white-color;
+  text-shadow: 1px 1px 1px $main-color-darker;
+	text-decoration: none;
+  background: $main-color-darker;
+  box-shadow: 0 4px $main-color-darkest;
+}
+
+.btn:active{
+  color: $white-color;
+  text-shadow: 1px 1px 1px $main-color-darker;
+	text-decoration: none;
+  background: $main-color-darkest;
+  box-shadow: 0 4px $main-color-darkest;
+}
+
+.button {
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+
+  a{
+    color: $white-color;
+  }
+}
+
+.button:hover{
+	text-decoration: none;
+}
