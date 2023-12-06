@@ -2001,6 +2001,7 @@ input {
   align-items: center;
   text-align: justify;
   box-sizing: border-box;
+  justify-content: center;
 }
 .about h1, .about .h1 {
   padding: 10px;
