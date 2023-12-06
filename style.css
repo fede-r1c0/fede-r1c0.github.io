@@ -1879,10 +1879,13 @@ input {
 /* Presentation Box CSS */
 .presentation {
   display: flex;
-  margin: 40px auto;
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
   padding: 40px;
-  align-items: center;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .presentation p {
   font-size: 18px;
@@ -1923,44 +1926,41 @@ input {
 
 .sidebar {
   display: flex;
-  position: absolute;
+  position: fixed;
   background-color: #fff;
-  float: left;
-  align-items: center;
 }
 
 .nav {
   display: flex;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  margin: 0 auto;
-  padding: 5px;
+  position: relative;
   width: 60px;
   height: 100vh;
-  border-right: 1px solid #eeeeee;
   transition: all 0.5s ease;
+  border-right: 1px solid #eeeeee;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 .nav ul {
   display: flex;
   position: fixed;
-  margin: 0 auto;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  list-style: none;
-  transform: rotate(-90deg) translateX(-100%);
-  transform-origin: left top;
+  flex-flow: row-reverse nowrap;
+  flex-grow: 0;
+  padding-left: 0;
+  transform: rotate(-90deg);
 }
 .nav li {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style: none;
   padding: 15px;
 }
 .nav a {
   color: #3a3a3a;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
   position: relative;
-  float: right;
+  padding-left: 4px;
+  padding-bottom: 4px;
   transition: 0.4s;
 }
 .nav a::after {

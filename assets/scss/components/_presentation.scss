@@ -1,10 +1,13 @@
 /* Presentation Box CSS */
 .presentation {
 	display: flex;
-	margin: 40px auto;
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
 	padding: 40px;
-  align-items: center;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 
 	p{
 		font-size: $base-font-size;
