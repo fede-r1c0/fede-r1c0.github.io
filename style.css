@@ -1831,7 +1831,11 @@ input {
   border-radius: 1%;
   padding: 30px;
   margin: 0 auto;
+  max-width: 600px;
   box-shadow: 0 1px 1px 0 #eeeeee;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Button CSS */
@@ -1928,12 +1932,14 @@ input {
   display: flex;
   position: fixed;
   background-color: #fff;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .nav {
   display: flex;
   position: relative;
-  width: 60px;
+  width: 65px;
   height: 100vh;
   transition: all 0.5s ease;
   border-right: 1px solid #eeeeee;
@@ -1946,7 +1952,8 @@ input {
   position: fixed;
   flex-flow: row-reverse nowrap;
   flex-grow: 0;
-  padding: 0;
+  padding-top: 10px;
+  padding-left: 0;
   margin: 0;
   transform: rotate(-90deg);
 }
@@ -1990,11 +1997,9 @@ input {
   display: flex;
   margin: 0 auto;
   padding: 40px;
+  width: 100%;
   align-items: center;
   text-align: justify;
-  width: 100%;
-  min-height: 75px;
-  height: fit-content;
   box-sizing: border-box;
 }
 .about h1, .about .h1 {
@@ -2006,52 +2011,42 @@ input {
   padding: 10px;
   margin: 0;
 }
-.about .purpleBG {
+.about .about__img__bg {
   width: 90%;
-  height: 660px;
-  right: auto;
+  height: 600px;
   position: absolute;
-  top: auto;
-  left: 10px;
-  bottom: 10px;
+  top: 20px;
+  left: 20px;
   border-radius: 0.5rem;
   background-color: #7d40e7;
 }
-.about .responsive-container-block {
-  min-height: 75px;
-  height: fit-content;
-  width: 100%;
-  padding: 10px;
-  margin: 0 auto;
+.about .about__block {
   display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.about .responsive-container-block.bigContainer {
-  padding: 10px 30px;
-}
-.about .responsive-container-block.Container {
-  max-width: 1320px;
+.about .about__container {
+  max-width: 600px;
   padding: 0;
-  margin: 30px auto;
-  align-items: center;
+  margin: 0;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-.about .responsive-container-block.imgContainer {
+.about .about__img__container {
   width: 80%;
-  height: 700px;
+  height: 616px;
   position: relative;
-  padding: 0;
+  margin: 0;
 }
-.about .bigImg {
-  height: 660px;
+.about .about__big__img {
+  height: 600px;
   width: 90%;
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: auto;
+  left: 40px;
   object-fit: cover;
   border-radius: 0.5rem;
 }
@@ -2103,8 +2098,24 @@ input {
   }
 }
 .footer {
-  margin: 0 auto;
-  padding: 10px 0;
+  display: flex;
+  position: relative;
+  margin: auto 0;
+  padding-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer .copyright {
+  margin: 0;
+  padding: 10px;
+}
+.footer .copyright p {
+  font-size: 16px;
+  text-align: center;
+  color: #aaa;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

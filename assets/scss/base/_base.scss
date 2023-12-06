@@ -52,7 +52,11 @@ input {
   border-radius: 1%;
   padding: 30px;
   margin: 0 auto;
+	max-width: 600px;
   box-shadow: 0 1px 1px 0 $gray-color;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Button CSS */
