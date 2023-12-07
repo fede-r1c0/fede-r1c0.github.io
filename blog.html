@@ -60,7 +60,7 @@
 				<ul>
 					<li><a href="./index.html" class="active" aria-current="page">Home</a></li>
 					<li><a href="./about.html" aria-current="page">About me</a></li>
-					<li><a href="./skills.html" aria-current="page">Skills</a></li>
+					<li><a href="./portfolio.html" aria-current="page">Portfolio</a></li>
 					<li><a href="#" class="active" aria-current="page">Blog</a></li>
 					<li><a href="./contact.html" aria-current="page">Contact</a></li>
 				</ul>
@@ -70,66 +70,121 @@
 
 		<!-- Main content -->
 		<main>
-			<section class="col-xxl-8 col-xl-8 col-lg-11 col-md-12 container blog">
-				<div class="container">
-					<h1>Blog</h1>
-
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-
-						<div class="col p-2">
-							<div class="card rounded">
-								<img class="card-img-top" src="assets/images/argo-rollouts.png" alt="Card image cap">
-								<div class="card-body blog-card">
-									<h2 class="card-title">Argo Rollouts</h2>
-									<p class="card-text">Progressive deployments are a deployment strategy that allows new application versions to be rolled out gradually into production, as they are validated.</p>
-									<!-- View more button -->
-									<div class="container button">
-										<div class="btn btn-primary col-6">
-											<a href="./contact.html">View more</a>
-										</div>
+			<!-- Blog section -->
+			<section class="col-auto container blog">
+				<h1>Blog</h1>
+				<!-- Blog articles -->
+				<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
+					<!-- Article 1 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/argo-rollouts.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Kubernetes progressive deployments with Argo Rollouts</h2>
+								<p class="card-text">Progressive deployments are a deployment strategy that allows new application versions to be rolled out gradually into production, as they are validated.</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>1233 views</p>
 									</div>
 								</div>
 							</div>
-						</div>
-
-						<div class="col p-2">
-							<div class="card rounded" aria-hidden="true">
-								<img class="card-img-top" src="assets/images/backstage.png" alt="Card image cap">
-								<div class="container card-body blog-card">
-									<div class="container">
-									<h2 class="card-title">IDP with Backstage</h2>
-									<p class="card-text">Backstage is a powerful and flexible internal development platform that can help organizations improve the productivity and collaboration of their development teams..</p>
-									</div>
-									<!-- View more button -->
-									<div class="container button">
-										<div class="btn btn-primary col-6">
-											<a href="./contact.html">View more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col p-2">
-							<div class="card rounded" aria-hidden="true">
-								<img class="card-img-top" src="assets/images/argocd.png" alt="Card image cap">
-								<div class="card-body blog-card">
-									<h2 class="card-title">GitOps with ArgoCD</h2>
-									<p class="card-text">ArgoCD is a Kubernetes controller that manages applications based on a Git repository.</p>
-									<!-- View more button -->
-									<div class="container button">
-										<div class="btn btn-primary col-6">
-											<a href="./contact.html">View more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						</div>
-						
+						</article>
 					</div>
+					<!-- Article 2 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/amazq.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Understand the power of Amazon Q!</h2>
+								<p class="card-text">Amazon Q offers companies the option to grant permission for it to interact with their corporate data, even if it’s not hosted on Amazon’s servers...</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>976 views</p>
+									</div>
+								</div>
+						</article>
+					</div>
+					<!-- Article 3 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/argocd.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Applying GitOps with ArgoCD in Kubernetes</h2>
+								<p class="card-text">ArgoCD is a Kubernetes-native continuous deployment tool. Unlike external CD tools that only enable push-based deployment, Argo CD can pull updated code from Git repositories and deploy it directly to Kubernetes resources....</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>689 views</p>
+									</div>
+								</div>
+						</article>
+					</div>
+					<!-- Article 4 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/kaniko.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Kubernetes Daemonless Docker Image Building</h2>
+								<p class="card-text">Kaniko is a tool to build container images from a Dockerfile, inside a container or Kubernetes cluster. The Kaniko executor allows you to take your Dockerfile and project context...</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>814 views</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<!-- Article 5 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/backstage.png" alt="Card image cap">
+							<div class="card-body ">
+								<h2 class="card-title">Principals for Developing Backstage Application</h2>
+								<p class="card-text">Backstage is a powerful and flexible internal development platform that can help organizations improve the productivity and collaboration of their development teams..</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>1265 views</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<!-- Article 6 -->
+					<div class="col">
+						<article class="card">
+							<img class="card-img-top" src="assets/images/karpenter.png" alt="Karpenter deployment diagram for AWS EKS">
+							<div class="card-body">
+								<h2 class="card-title">Deploy Karpenter v0.32.1 in AWS EKS</h2>
+								<p class="card-text">Karpenter observes the aggregate resource requests of unscheduled pods and makes decisions to launch and terminate nodes to minimize scheduling latencies and...</p>
+								<div class="card-bottom">
+									<div class="container btn btn-default btn-sm">
+										<a href="#">Read more</a>
+									</div>
+									<div class="container views">
+										<p>1127 views</p>
+									</div>
+								</div>
+						</article>
+					</div>
+
+				</div>
+				<!-- Blog articles end	 -->
 			</section>
+			<!-- Blog section end  -->
 		</main>
 		<!-- Body content end -->
 
