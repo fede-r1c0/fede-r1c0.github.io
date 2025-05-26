@@ -1783,7 +1783,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Merriweather", serif;
-  color: #2a2a2a;
+  color: #111111;
   font-size: 18px;
 }
 
@@ -1801,15 +1801,15 @@ body {
 }
 
 h1, .h1 {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 p {
-  color: #2a2a2a;
+  color: #111111;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 24px;
 }
 
 a {
@@ -1836,7 +1836,7 @@ input {
   border: 1px solid #eeeeee;
   border-radius: 1%;
   box-shadow: 0 1px 1px 0 #eeeeee;
-  padding: 30px;
+  padding: 40px;
   margin: 0 auto;
   max-width: 600px;
   flex-wrap: nowrap;
@@ -1892,7 +1892,7 @@ input {
   position: relative;
   margin: 0 auto;
   max-width: 600px;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -2004,17 +2004,21 @@ input {
 /* About me Box CSS */
 .about {
   display: flex;
+  position: relative;
   margin: 0 auto;
-  padding: 40px;
-  width: 100%;
+  padding: 0 auto;
+  max-width: 1250px;
+  height: 100vh;
   align-items: center;
   text-align: justify;
   box-sizing: border-box;
   justify-content: center;
 }
+
 .about h1, .about .h1 {
   padding: 10px;
 }
+
 .about p {
   font-size: 18px;
   color: #2a2a2a;
