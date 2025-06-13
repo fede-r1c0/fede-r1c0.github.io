@@ -1,23 +1,22 @@
-
 .sidebar {
 	display: flex;
 	position: fixed;
-  background-color: $white-color;
+	background-color: $white-color;
 	padding: 0;
 	margin: 0 auto;
 	z-index: 1000;
 }
 
-.nav{
+.nav {
 	display: flex;
 	position: relative;
-  width: 65px;
+	width: 65px;
 	height: 100vh;
-  transition: all .5s ease;
-  border-right: 1px solid $gray-color;
+	transition: all 0.5s ease;
+	border-right: 1px solid $gray-color;
 	box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 
 	ul {
 		display: flex;
@@ -31,50 +30,48 @@
 		min-width: 500px;
 	}
 
-  li {
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    list-style: none;
-    padding-left: 25px;
+	li {
+		font-size: 12px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		list-style: none;
+		padding-left: 25px;
 		padding-bottom: 5px;
-  }
+	}
 
-  a {
+	a {
 		color: $text-color;
 		position: relative;
 		padding-left: 5px;
 		padding-bottom: 5px;
-    transition: .4s;
-  }
+		transition: 0.4s;
+	}
 
-  a::after {
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: $main-color;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
+	a::after {
+		bottom: 0;
+		content: "";
+		display: block;
+		height: 2px;
+		left: 50%;
+		position: absolute;
+		background: $main-color;
+		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+		width: 0;
+	}
 
-  a:hover::after{
-    width: 100%;
-    left: 0;
-  }
+	a:hover::after {
+		width: 100%;
+		left: 0;
+	}
 
-  .active {
-    color: $main-color;
-    font-weight: $base-font-bold;
-  }
+	.active {
+		color: $main-color-darker;
+		font-weight: $base-font-bold;
+	}
 }
 
-
-
 // @media (max-width: 768px) {
-	
+
 // 	.sidebar {
 // 		display: flex;
 // 		position: fixed;
@@ -84,25 +81,25 @@
 // 	.nav{
 // 		display: flex;
 // 		// justify-content: center;
-// 		// align-items: center;	
+// 		// align-items: center;
 // 		position: fixed;
 // 		width: 100%;
-// 			// height: 100vh;	
+// 			// height: 100vh;
 // 		transition: all .5s ease;
 // 		border-right: 1px solid $gray-color;
 // 		box-sizing: border-box;
-	
+
 // 		ul {
 // 			// display: flex;
 // 			// flex-flow: row-reverse nowrap;
-// 			// flex-grow: 1; 
+// 			// flex-grow: 1;
 // 			position: absolute;
 // 			// margin: auto;
 // 			padding-left: 0;
 // 			// transform: rotate(-90deg) translateX(-100%);
 // 			// transform-origin: left top;
 // 		}
-	
+
 // 		li {
 // 			font-size: 12px;
 // 			letter-spacing: 2px;
@@ -111,7 +108,7 @@
 // 			list-style: none;
 // 			padding: 15px;
 // 		}
-	
+
 // 		a {
 // 			color: $dark-gray-color;
 // 			text-wrap: nowrap;
@@ -120,7 +117,7 @@
 // 			padding-bottom: 4px;
 // 			transition: .4s;
 // 		}
-	
+
 // 		a::after {
 // 			bottom: 0;
 // 			content: "";
@@ -132,12 +129,12 @@
 // 			transition: width 0.3s ease 0s, left 0.3s ease 0s;
 // 			width: 0;
 // 		}
-	
+
 // 		a:hover::after{
 // 			width: 100%;
 // 			left: 0;
 // 		}
-	
+
 // 		.active {
 // 			color: $main-color;
 // 			font-weight: $base-font-bold;

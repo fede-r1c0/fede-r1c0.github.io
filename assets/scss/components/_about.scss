@@ -1,19 +1,21 @@
 /* About me Box CSS */
 .about {
 	display: flex;
+	position: relative;
 	margin: 0 auto;
-	padding: 40px;
-  width: 100%;
-  align-items: center;
-  text-align: justify;
+	padding: 0 auto;
+	max-width: 1250px;
+	height: 100vh;
+	align-items: center;
+	text-align: justify;
 	box-sizing: border-box;
-  justify-content: center;
+	justify-content: center;
 
-	h1{
+	h1 {
 		padding: 10px;
 	}
 
-	p{
+	p {
 		font-size: $base-font-size;
 		color: $text-color;
 		padding: 10px;
@@ -26,7 +28,7 @@
 		position: absolute;
 		top: 20px;
 		left: 20px;
-		border-radius: .5rem;
+		border-radius: 0.5rem;
 		background-color: $main-color;
 	}
 
@@ -61,6 +63,6 @@
 		position: absolute;
 		left: 40px;
 		object-fit: cover;
-		border-radius: .5rem;
+		border-radius: 0.5rem;
 	}
 }

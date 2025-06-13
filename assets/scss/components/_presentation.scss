@@ -5,34 +5,33 @@
 	margin: 0 auto;
 	max-width: 600px;
 	padding: 40px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
 
-	p{
+	p {
 		font-size: $base-font-size;
 		color: $text-color;
 	}
-	
+
 	a {
 		color: $main-color;
 	}
 }
 
-.img__thumbnail{
+.img__thumbnail {
 	margin-bottom: 20px;
 }
 
 .button {
-  a{
-    color: $white-color;
-  }
+	a {
+		color: $white-color;
+	}
 }
 
 /* Social media icons */
 .social__icons {
-
 	a {
 		color: $dark-gray-color;
 		transition: color 0.1s linear;
