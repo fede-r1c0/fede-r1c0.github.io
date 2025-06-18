@@ -1,19 +1,18 @@
 /* Contact Form Box CSS */
 .contact {
-  width: 600px;
-  height: 100vh;
-  align-items: center;
-  text-align: center;
+	width: 600px;
+	height: 100dvh;
+	align-items: center;
+	text-align: center;
 }
 
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
 
-@media (max-width: 768px) {	
-  .container {
-    width: 100%;
-  }
-
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
+	.section {
+		display: flex;
+		flex-direction: column;
+	}
 }
