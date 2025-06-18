@@ -1784,7 +1784,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Merriweather", serif;
   color: #111111;
-  font-size: 18px;
+  font-size: 0.8lh;
 }
 
 *,
@@ -1809,7 +1809,7 @@ h1, .h1 {
 p {
   color: #111111;
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 0.8lh;
   font-size: 18px;
   line-height: 24px;
 }
@@ -1901,7 +1901,7 @@ input {
   height: 100dvh;
 }
 .presentation p {
-  font-size: 18px;
+  font-size: 0.8lh;
   color: #111111;
 }
 .presentation a {
@@ -2020,7 +2020,7 @@ input {
   padding: 10px;
 }
 .about p {
-  font-size: 18px;
+  font-size: 0.8lh;
   color: #111111;
   padding: 10px;
   margin: 0;
@@ -2197,12 +2197,12 @@ input {
 }
 .blog h1, .blog .h1 {
   display: none;
-  font-size: 36px;
+  font-size: 1.2lh;
   font-weight: 600;
   text-align: center;
 }
 .blog h2, .blog .h2 {
-  font-size: 18px;
+  font-size: 0.8lh;
   font-weight: 400;
 }
 .blog p {
@@ -2298,7 +2298,7 @@ input {
   padding: 10px;
 }
 .footer .copyright p {
-  font-size: 16px;
+  font-size: 0.7lh;
   text-align: center;
   color: #aaa;
   margin: 0;
