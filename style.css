@@ -1810,7 +1810,6 @@ p {
   color: #111111;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8lh;
-  font-size: 18px;
   line-height: 24px;
 }
 
@@ -1920,6 +1919,7 @@ input {
 .social__icons a {
   color: #3a3a3a;
   transition: color 0.1s linear;
+  font-size: 0.8lh;
 }
 .social__icons i {
   margin: 12px;
